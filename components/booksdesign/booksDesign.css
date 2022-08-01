@@ -1,0 +1,321 @@
+.booksContinerMain{
+    height: 90vh;
+    width: 60vw;
+   border: 1px solid rgb(184, 165, 165);
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+   
+}
+
+.firstContiner{
+   
+height: 52%;
+width: 30%;
+margin-left: 8rem;
+margin-top: 60px;
+}
+.secoundContiner{
+    height: 100%;
+  width: 60%;
+  margin-top: 2rem;
+}
+.textContiner{
+    height: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.smallText{
+    height: 3%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+.amountCounter{
+    height: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+.smallDetails{
+    height: 15%;
+    width: 470px;
+    border: 1px solid rgb(231, 216, 216) ;
+  
+}
+.hading{
+    height: 5%;
+    width: 18%;
+    display: flex;
+    justify-content: flex-start;
+}
+.bookPhotoContiner{
+    margin-top: 1rem;
+}
+.firstPhotoContiner{
+    height: 320px;
+    width: 270px;
+    border: 1px solid rgb(184, 164, 164);
+    border-radius: 5px;
+}
+.ButtonContiner{
+    height: 40px;
+    width: 270px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.ratingPart{
+    height: 30%;
+    width: 80%;
+    background: rgb(240, 233, 233);
+}
+.feedback{
+    height: 25%;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.rateIcon{
+    height: 20%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+.writeSomething{
+    height: 20%;
+    width: 90%;
+    background: white;
+    margin-left: 1.6rem;
+    border-radius: 10px;
+}
+.submitButton{
+    height: 15%;
+    width: 95%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+@media only screen and (min-width:770px)and (max-width: 1024px) {
+    .booksContinerMain{
+        height: 100vh;
+        width: 90vw;
+       /* border: 1px solid rgb(201, 34, 34); */
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        position: relative;
+        right: 4rem;
+        /* margin: auto; */
+       
+    }
+    .secoundContiner{
+        height: 100%;
+        width: 100%;
+      /* margin-top: 2rem; */
+      /* border: 1px solid rgb(201, 34, 34); */
+    }
+    .smallDetails{
+        height: 30%;
+        width: 95%;
+        /* border: 1px solid rgb(202, 49, 49) ; */
+      
+    }
+    .ratingPart{
+        height: 30%;
+        width: 95%;
+        background: rgb(240, 233, 233);
+    }
+    .firstContiner{
+        height: 52%;
+        width: 30%;
+        margin-left: 15rem;
+        margin-top: 60px;
+  }
+  .textContiner{
+    height: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+} 
+.smallText{
+    height: 3%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+}
+.amountCounter{
+    height: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+}
+.bookRating1{
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    width: 55px;
+    height: 20px;
+   /* padding: 5px 8px 5px 8px;*/
+    margin-top: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 2rem;
+}
+}
+@media only screen and (min-width:481px)and (max-width: 768px) {
+    .booksContinerMain{
+        height: 100vh;
+        width: 95vw;
+       /* border: 1px solid rgb(201, 34, 34); */
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        position: relative;
+        right: 4rem;
+        /* margin: auto; */
+       
+    }
+    .secoundContiner{
+        height: 100%;
+        width: 100%;
+      /* margin-top: 2rem; */
+      /* border: 1px solid rgb(201, 34, 34); */
+    }
+    .smallDetails{
+        height: 30%;
+        width: 95%;
+        /* border: 1px solid rgb(202, 49, 49) ; */
+      
+    }
+    .ratingPart{
+        height: 30%;
+        width: 95%;
+        background: rgb(240, 233, 233);
+    }
+    .firstContiner{
+        height: 52%;
+        width: 30%;
+        margin-left: 5.7rem;
+        margin-top: 60px;
+  }
+  .textContiner{
+    height: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+} 
+.smallText{
+    height: 3%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+}
+.amountCounter{
+    height: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+}
+.bookRating1{
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    width: 55px;
+    height: 20px;
+   /* padding: 5px 8px 5px 8px;*/
+    margin-top: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 2rem;
+}
+}
+@media only screen and (min-width:320px)and (max-width: 480px){
+    .booksContinerMain{
+        height: 150vh;
+        width: 250vw;
+       /* border: 1px solid rgb(201, 34, 34); */
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        position: relative;
+        right: 19rem;
+        /* margin: auto; */
+       
+    }
+    .secoundContiner{
+        height: 100%;
+        width: 100%;
+      /* margin-top: 2rem; */
+      /* border: 1px solid rgb(201, 34, 34); */
+    }
+    .smallDetails{
+        height: 30%;
+        width: 95%;
+        /* border: 1px solid rgb(202, 49, 49) ; */
+      
+    }
+    .ratingPart{
+        height: 30%;
+        width: 95%;
+        background: rgb(240, 233, 233);
+    }
+    .firstContiner{
+        height: 52%;
+        width: 30%;
+        margin-left: 5.7rem;
+        margin-top: 60px;
+  }
+  .textContiner{
+    height: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+} 
+.smallText{
+    height: 3%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+}
+.amountCounter{
+    height: 10%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 2rem;
+}
+.bookRating1{
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    width: 55px;
+    height: 20px;
+   /* padding: 5px 8px 5px 8px;*/
+    margin-top: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 2rem;
+}
+}

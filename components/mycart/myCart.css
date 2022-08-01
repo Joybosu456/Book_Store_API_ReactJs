@@ -1,0 +1,162 @@
+
+.bookRating{
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    width: 55px;
+    height: 20px;
+   /* padding: 5px 8px 5px 8px;*/
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+.mycartbooks{
+  /* margin-top: 20px; */
+  height: 85%;
+  width: 70%;
+}
+.bookAuthor{
+ font-size: 14px;
+ font-weight: 400;
+ display: flex;
+    justify-content: flex-start;
+}
+.bookName{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+.bookRating{
+    display: flex;
+    justify-content: flex-start;
+}
+.bookQuantity{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.bookPrice{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+.listOfBook{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.address{
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 8vh;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:25px;
+}
+.summery{
+    border: 1px solid black;
+    margin-top: 50px;
+    height: 8vh;
+    width: 65%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:25px;
+}
+.myCartMedia{
+    border: 1px solid #1a0909;
+    width: 63vw;
+     margin-top: 20px;
+     margin-left:25px;
+}
+.myCart_Continer{
+    width: 70vw;
+}
+@media only screen and (min-width:770px)and (max-width: 1024px) {
+   .myCart_Continer{
+   /* border: 1px solid red; */
+   width: 97vw;
+   
+   position: relative;
+   right: 1rem;
+   }
+   .allTextName{
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+   }
+   .myCartMedia{
+    border: 1px solid #0e0202;
+    width: 90%;
+    height: 45vh;
+     margin-top: 20px;
+     margin-left:25px;
+   }
+   .mycartbooks{
+    /* margin-top: 20px; */
+    height: 55%;
+    width: 100%;
+    position: relative;
+    top: 2rem;
+    left:2rem;
+  }
+  .orderButton{
+    position:relative;
+    top: 4rem;
+   }
+}
+@media only screen and (min-width:481px)and (max-width: 768px){
+        .myCart_Continer{
+        /* border: 1px solid red; */
+        width: 97vw;
+        position: relative;
+        right: 1rem;
+        }
+        .allTextName{
+         position: relative;
+         left: 3rem;
+         top: 2rem;
+        }
+        .myCartMedia{
+         border: 1px solid white;
+         width: 93%;
+         height: 30vh;
+          margin-top: 20px;
+          margin-left:25px;
+        }
+        .mycartbooks{
+         /* margin-top: 20px; */
+         height: 55%;
+         width: 100%;
+         position: relative;
+         top: 2rem;
+         left:2rem;
+       }
+       .orderButton{
+        position:relative;
+        bottom: 5rem;
+       }
+       .address{
+        border: 1px solid black;
+        margin-top: 50px;
+        height: 8vh;
+        width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left:25px;
+    }
+    .summery{
+        border: 1px solid black;
+        margin-top: 50px;
+        height: 8vh;
+        width: 65%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left:25px;
+    }
+}

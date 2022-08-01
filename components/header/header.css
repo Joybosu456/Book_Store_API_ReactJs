@@ -1,0 +1,257 @@
+.main_One{
+    width: 100vw;
+    height: 20vh;
+}
+.main{
+    width:100%;
+    height: 8vh;
+    border: 1px solid rgb(139, 10, 10);
+    background:  #A03037 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookstore{
+    font-size: 20px;
+    color: white;
+}
+.firstbox{
+   height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 12rem;
+}
+.secoundbox{ 
+    width: 46%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.searchButton {
+    width: 40px;
+    text-align: center;
+    border-radius: 7px 0 0 7px;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: white;
+}
+
+.searchField {
+    width: 100%;
+    border: none;
+    height: 7vh;
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    color: black;
+    background: white;
+}
+.thirdbox{
+    width: 10%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+@media only screen and (min-width:770px)and (max-width: 1024px) {
+    .main_One{
+        width: 100vw;
+        height: 20vh;
+    }
+    .main{
+        width:100%;
+        height: 6vh;
+        border: 1px solid rgb(139, 10, 10);
+        background:  #A03037 0% 0% no-repeat padding-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .bookstore{
+        font-size: 20px;
+        color: rgb(247, 224, 224);
+    }
+    .firstbox{
+       height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 4rem;
+    }
+    .secoundbox{ 
+        width: 36%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+    
+    .searchButton {
+        width: 40px;
+        text-align: center;
+        border-radius: 7px 0 0 7px;
+        cursor: pointer;
+        font-size: 20px;
+        border: none;
+        background: white;
+    }
+    
+    .searchField {
+        width: 100%;
+        border: none;
+        height: 7vh;
+        border-radius: 5px 5px 5px 5px;
+        outline: none;
+        color: black;
+        background: white;
+    }
+    .thirdbox{
+        width: 15%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        right: 2rem;
+      
+    }
+   }
+ 
+   @media only screen and (min-width:481px)and (max-width: 768px){
+    .main_One{
+        width: 100vw;
+        height: 20vh;
+    }
+    .main{
+        width:100%;
+        height: 6vh;
+        border: 1px solid rgb(139, 10, 10);
+        background:  #A03037 0% 0% no-repeat padding-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .bookstore{
+        font-size: 20px;
+        color: rgb(247, 224, 224);
+    }
+    .firstbox{
+       height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 4rem;
+    }
+    .secoundbox{ 
+        width: 30%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        position: relative;
+        right: 2rem;
+    }
+    
+    .searchButton {
+        width: 40px;
+        text-align: center;
+        border-radius: 7px 0 0 7px;
+        cursor: pointer;
+        font-size: 20px;
+        border: none;
+        background: white;
+    }
+    
+    .searchField {
+        width: 100%;
+        border: none;
+        height: 7vh;
+        border-radius: 5px 5px 5px 5px;
+        outline: none;
+        color: black;
+        background: white;
+    }
+    .thirdbox{
+        width: 15%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        right: 2rem;
+      
+    }
+   }
+   @media only screen and (min-width:320px)and (max-width: 480px) {
+    .main_One{
+        width: 400vw;
+        height: 20vh;
+    }
+    .main{
+        width:100%;
+        height: 10vh;
+        border: 1px solid rgb(139, 10, 10);
+        background:  #A03037 0% 0% no-repeat padding-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .bookstore{
+        font-size: 20px;
+        color: rgb(247, 224, 224);
+    }
+    .firstbox{
+       height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        margin-left: 30rem;
+    }
+    .secoundbox{ 
+        width: 20%;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        position: relative;
+        right: 2rem;
+    }
+    
+    .searchButton {
+        width: 40px;
+        text-align: center;
+        border-radius: 7px 0 0 7px;
+        cursor: pointer;
+        font-size: 20px;
+        border: none;
+        background: white;
+    }
+    
+    .searchField {
+        width: 100%;
+        border: none;
+        height: 7vh;
+        border-radius: 5px 5px 5px 5px;
+        outline: none;
+        color: black;
+        background: white;
+    }
+    .thirdbox{
+        width: 15%;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        right: 2rem;
+      
+    }
+   }

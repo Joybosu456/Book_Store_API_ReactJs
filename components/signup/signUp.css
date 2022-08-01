@@ -1,0 +1,103 @@
+.bookstorecontinersignup{
+    border: 1px solid rgb(48, 29, 29);
+    height: 50vh;
+    width: 18vw;
+    margin-top: -40px;
+    background: white;
+    border-radius: 12px;
+}
+.maincontiner_signup{
+    height: 10%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.textfieldsignup{
+    height: 60%;
+    margin-top: 10px;
+}
+.name{
+    top: 10px;
+}
+.mail{
+    top: 25px;
+}
+.password{
+    top: 35px;
+}
+.num{
+    top: 45px;
+}
+.maincontiner_signupOne{
+    height: 10%;
+}
+.Continer_signup{
+    background-color: red;
+    width: 70%;
+    position: relative;
+    left: 3rem;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+@media only screen and (min-width:770px)and (max-width: 1024px){
+    .bookstorecontinersignup{
+        border: 1px solid rgb(48, 29, 29);
+        height: 35vh;
+        width: 35vw;
+        margin-top: -25px;
+        background: white;
+        border-radius: 12px;
+        position: relative;
+        /* right: 10rem; */
+    }
+    .Continer_signup{
+        background-color: red;
+        width: 80%;
+        position: relative;
+        left: 1.5rem;
+        bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+ 
+}
+@media only screen and (min-width:481px)and (max-width: 768px){
+    .bookstorecontinersignup{
+        border: 1px solid rgb(48, 29, 29);
+        height: 50vh;
+        width: 50vw;
+        margin-top: -40px;
+        background: white;
+        border-radius: 12px;
+        position: relative;
+        right: 8rem;
+    }
+    
+}
+@media only screen and (min-width:320px)and (max-width: 480px){
+    .bookstorecontinersignup{
+        border: 1px solid rgb(48, 29, 29);
+        height: 40vh;
+        width: 88vw;
+        margin-top: 0px;
+        background: white;
+        border-radius: 12px;
+        position: relative;
+        right: 9rem;
+       
+    }
+    .Continer_signup{
+        background-color:red;
+        width: 65vw;
+        position: relative;
+        right: 6.5rem;
+        bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+}

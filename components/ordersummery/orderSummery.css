@@ -1,0 +1,7 @@
+@media only screen and (min-width:770px)and (max-width: 1024px){
+    .photo{
+        width: 10vh;
+       position: relative;
+       left: 0rem;
+    }
+}

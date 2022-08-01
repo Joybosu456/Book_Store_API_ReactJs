@@ -1,0 +1,29 @@
+@media only screen and (min-width:770px)and (max-width: 1024px) {
+    .details{
+        position: relative;
+        left: 40px;
+    }
+    .newAddress{
+        position: relative;
+        right: 50px;
+    }
+    .Address{
+        position: relative;
+        left: 25px;
+    }
+}
+@media only screen and (min-width:481px)and (max-width: 768px){
+    .details{
+        height: 45vh;
+        position: relative;
+        left: 40px;
+    }
+    .newAddress{
+        position: relative;
+        right: 50px;
+    }
+    .Address{
+        position: relative;
+        left: 25px;
+    }
+}

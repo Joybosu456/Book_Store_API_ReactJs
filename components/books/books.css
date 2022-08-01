@@ -1,0 +1,209 @@
+
+.bookRating{
+    font-size: 13px;
+    background-color: green;
+    color: white;
+    width: 55px;
+    height: 20px;
+   /* padding: 5px 8px 5px 8px;*/
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+.booksphoto{
+height: 200px;
+background: #c5bebe;
+}
+.bookPhoto{
+  margin-top: 30px;
+}
+.bookAuthor{
+ font-size: 14px;
+ font-weight: 400;
+ display: flex;
+    justify-content: flex-start
+}
+.bookName{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+.bookRating{
+    display: flex;
+    justify-content: flex-start;
+}
+.bookQuantity{
+    display: flex;
+    justify-content: flex-start;
+}
+.bookPrice{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+.listOfBook{
+    height: 300px;
+    width: 200px;
+    
+}
+@media only screen and (min-width:770px)and (max-width: 1024px){
+    .bookRating{
+        font-size: 13px;
+        background-color: green;
+        color: white;
+        width: 55px;
+        height: 20px;
+       /* padding: 5px 8px 5px 8px;*/
+        margin-top: 30px;
+        border-radius: 5px;
+    
+    }
+    .booksphoto{
+    height: 250px;
+    background: #c5bebe;
+    }
+    .bookPhoto{
+      margin-top: 30px;
+      height: 200px;
+      width: 160px;
+    }
+    .bookAuthor{
+     font-size: 14px;
+     font-weight: 400;
+     display: flex;
+        justify-content: flex-start
+    }
+    .bookName{
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookRating{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookQuantity{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookPrice{
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .listOfBook{
+        height: 400px;
+        width: 300px;
+        
+    }
+}
+@media only screen and (min-width:481px)and (max-width: 768px){
+    .bookRating{
+        font-size: 13px;
+        background-color: green;
+        color: white;
+        width: 55px;
+        height: 20px;
+       /* padding: 5px 8px 5px 8px;*/
+        margin-top: 30px;
+        border-radius: 5px;
+    
+    }
+    .booksphoto{
+    height: 250px;
+    background: #c5bebe;
+    }
+    .bookPhoto{
+      margin-top: 30px;
+      height: 200px;
+      width: 160px;
+    }
+    .bookAuthor{
+     font-size: 14px;
+     font-weight: 400;
+     display: flex;
+        justify-content: flex-start
+    }
+    .bookName{
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookRating{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookQuantity{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookPrice{
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .listOfBook{
+        height: 400px;
+        width: 300px;
+        
+    }
+}
+@media only screen and (min-width:320px)and (max-width: 480px){
+    .bookRating{
+        font-size: 13px;
+        background-color: green;
+        color: white;
+        width: 55px;
+        height: 20px;
+       /* padding: 5px 8px 5px 8px;*/
+        margin-top: 30px;
+        border-radius: 5px;
+    
+    }
+    .booksphoto{
+    height: 250px;
+    background: #c5bebe;
+    }
+    .bookPhoto{
+      margin-top: 30px;
+      height: 200px;
+      width: 160px;
+    }
+    .bookAuthor{
+     font-size: 14px;
+     font-weight: 400;
+     display: flex;
+        justify-content: flex-start
+    }
+    .bookName{
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookRating{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookQuantity{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .bookPrice{
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .listOfBook{
+        height: 400px;
+        width: 300px;
+        
+    }
+}
